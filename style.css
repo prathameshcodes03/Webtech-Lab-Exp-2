@@ -1,0 +1,142 @@
+.flex{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+      min-height: 1.5vh;
+      
+
+}
+a{
+    text-decoration: none;
+    text-align: center;
+}
+
+#about{
+    margin-left: 15rem;
+}
+
+.nav{
+    background-color: #f5f5f5;
+  
+}
+h1{
+    font-weight: normal;
+}
+
+p{
+       margin: 1;
+    padding: 3rem 5rem 3rem ;
+    text-align: center;
+}
+
+
+
+
+.flex-2{
+      display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+ height: 70vh;
+ width: 20rem;
+  border: 2px solid rgb(240, 126, 126);
+  border-radius: 20px;
+  margin-top: 6rem;
+}
+
+
+.heading h1{
+    padding-left: 3rem;
+}
+
+.content p{
+    padding-right: 6rem;
+    text-align: center;
+}
+
+
+button{
+    margin-left: 6rem;
+    margin-bottom: 2rem;
+    padding: 12px 28px;
+
+    border-radius: 20px;
+    border: 2px solid rgba(255, 0, 0, 0.6);
+
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    color: #ff0000;
+    font-weight: 600;
+    cursor: pointer;
+
+    transition: all 0.35s ease;
+}
+
+button:hover{
+    background: rgba(255, 0, 0, 0.15);
+    color: #fff;
+
+    box-shadow:
+        0 8px 25px rgba(255, 0, 0, 0.35),
+        inset 0 0 10px rgba(255, 255, 255, 0.25);
+
+    transform: translateY(-3px) scale(1.03);
+}
+
+
+button:active{
+    transform: translateY(0) scale(0.98);
+}
+
+
+
+.flex-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70vw;
+    height: 70vh;
+    border: 2px solid rgb(240, 126, 126);
+    border-radius: 20px;
+    margin-left: 45vh;
+    margin-top: -71vh;
+
+}
+
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    width: 90vw;
+    max-width: 1200px;
+    margin: 2rem auto;
+}
+
+
+.img-box{
+    height: 200px;
+    border-radius: 10px;
+
+    background-size: cover;
+    background-position: center;
+
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.img-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+
+.img-box1{ background-image: url('Paris.jpg'); }
+.img-box2{ background-image: url('Rome.jpg'); }
+.img-box3{ background-image: url('Swiss.jpg'); }
+.img-box4{ background-image: url('Northen.jpg'); }
+.img-box5{ background-image: url('Tajmahal.jpg'); }
